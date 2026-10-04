@@ -1,0 +1,12 @@
+{
+  "name": "orbit-grab-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless smoke tests for Orbit Grab (fengari = a Lua VM in JavaScript)",
+  "scripts": {
+    "test": "node run.js && node run.js tests/bundle_test.lua"
+  },
+  "devDependencies": {
+    "fengari": "^0.1.5"
+  }
+}

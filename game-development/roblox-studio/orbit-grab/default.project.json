@@ -1,0 +1,30 @@
+{
+  "name": "OrbitGrab",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "OrbitGrab": {
+        "$path": "src/ReplicatedStorage/OrbitGrab"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "OrbitGrabClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/OrbitGrabClient.client.lua"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "OrbitGrabServer": {
+        "$path": "src/ServerScriptService/OrbitGrabServer.server.lua"
+      }
+    }
+  }
+}
